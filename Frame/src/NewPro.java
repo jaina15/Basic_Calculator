@@ -1,3 +1,7 @@
+/*
+* Shubham Jain
+*/
+
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -223,6 +227,8 @@ public class NewPro extends JFrame {
 		btn9.setBounds(122, 128, 46, 23);
 		contentPane.add(btn9);
 		
+		// addition
+		
 		JButton addbtn = new JButton("+");
 		addbtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -242,6 +248,8 @@ public class NewPro extends JFrame {
 		addbtn.setBounds(178, 128, 89, 23);
 		contentPane.add(addbtn);
 		
+		// subtraction
+		
 		JButton subbtn = new JButton("-");
 		subbtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -256,6 +264,8 @@ public class NewPro extends JFrame {
 		});
 		subbtn.setBounds(178, 162, 89, 23);
 		contentPane.add(subbtn);
+		
+		// multiplication
 		
 		JButton mulbtn = new JButton("*");
 		mulbtn.addActionListener(new ActionListener() {
@@ -272,6 +282,8 @@ public class NewPro extends JFrame {
 		mulbtn.setBounds(178, 196, 89, 23);
 		contentPane.add(mulbtn);
 		
+		// division
+		
 		JButton divbtn = new JButton("/");
 		divbtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -287,6 +299,8 @@ public class NewPro extends JFrame {
 		divbtn.setBounds(178, 230, 89, 23);
 		contentPane.add(divbtn);
 		
+		// clear button to clear the text field
+		
 		JButton clrbtn = new JButton("CLR");
 		clrbtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -295,6 +309,8 @@ public class NewPro extends JFrame {
 		});
 		clrbtn.setBounds(10, 94, 71, 23);
 		contentPane.add(clrbtn);
+		
+		// delete button to delete the text
 		
 		JButton dltbtn = new JButton("DLT");
 		dltbtn.addActionListener(new ActionListener() {
@@ -308,6 +324,8 @@ public class NewPro extends JFrame {
 		});
 		dltbtn.setBounds(97, 94, 71, 23);
 		contentPane.add(dltbtn);
+		
+		//toggle button to ON-OFF the calculator
 		
 		JToggleButton tgl = new JToggleButton("OFF");
 		tgl.addActionListener(new ActionListener() {
